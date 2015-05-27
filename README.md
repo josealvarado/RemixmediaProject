@@ -21,3 +21,5 @@ Instructions on how to run this app are as follows:
   3.1 Click on File -> Open
   3.2 Select RemixMediaProject.xcodeproj and open it
   4. Click on Project -> Run
+
+Imgur Search API: http://api.imgur.com/endpoints/gallery#gallery-search
