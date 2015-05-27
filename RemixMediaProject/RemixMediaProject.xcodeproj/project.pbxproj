@@ -14,6 +14,7 @@
 		CBDBF0191B1569D400D5C1A5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBDBF0181B1569D400D5C1A5 /* Images.xcassets */; };
 		CBDBF01C1B1569D400D5C1A5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBDBF01A1B1569D400D5C1A5 /* LaunchScreen.xib */; };
 		CBDBF0281B1569D400D5C1A5 /* RemixMediaProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBDBF0271B1569D400D5C1A5 /* RemixMediaProjectTests.m */; };
+		CBDBF0331B15805500D5C1A5 /* ImgurTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CBDBF0321B15805500D5C1A5 /* ImgurTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		CBDBF0211B1569D400D5C1A5 /* RemixMediaProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemixMediaProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBDBF0261B1569D400D5C1A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBDBF0271B1569D400D5C1A5 /* RemixMediaProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RemixMediaProjectTests.m; sourceTree = "<group>"; };
+		CBDBF0311B15805500D5C1A5 /* ImgurTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImgurTableViewCell.h; sourceTree = "<group>"; };
+		CBDBF0321B15805500D5C1A5 /* ImgurTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImgurTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				CBDBF0121B1569D400D5C1A5 /* ViewController.h */,
 				CBDBF0131B1569D400D5C1A5 /* ViewController.m */,
 				CBDBF0151B1569D400D5C1A5 /* Main.storyboard */,
+				CBDBF0311B15805500D5C1A5 /* ImgurTableViewCell.h */,
+				CBDBF0321B15805500D5C1A5 /* ImgurTableViewCell.m */,
 				CBDBF0181B1569D400D5C1A5 /* Images.xcassets */,
 				CBDBF01A1B1569D400D5C1A5 /* LaunchScreen.xib */,
 				CBDBF00B1B1569D400D5C1A5 /* Supporting Files */,
@@ -221,6 +226,7 @@
 			files = (
 				CBDBF0141B1569D400D5C1A5 /* ViewController.m in Sources */,
 				CBDBF0111B1569D400D5C1A5 /* AppDelegate.m in Sources */,
+				CBDBF0331B15805500D5C1A5 /* ImgurTableViewCell.m in Sources */,
 				CBDBF00E1B1569D400D5C1A5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

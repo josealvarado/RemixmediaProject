@@ -8,8 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<NSURLSessionDelegate, UITableViewDataSource, UITableViewDelegate>{
+    
+    NSMutableArray *list;
+}
 
+@property (weak, nonatomic) IBOutlet UITextField *searchTextField;
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
+
+- (IBAction)searchButtonPressed:(id)sender;
 
 @end
 
